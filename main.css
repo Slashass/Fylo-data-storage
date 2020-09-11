@@ -89,17 +89,18 @@ body {
     right: calc(18.5% + 2px);
 }
 .usageLimit {
-    position: absolute;
-    top: 10px;
     font-size: 10px;
     font-weight: 700;
 }
 #usageMaxLimit {
-    right: 0;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
 }
 #usageLeft {
     right: 20px;
     top: -40px;
+    font-weight: 700;
     position: absolute;
     background-color: #fff;
     color: hsl(229, 57%, 11%);
