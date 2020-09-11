@@ -99,7 +99,6 @@ body {
 #usageLeft {
     right: 20px;
     top: -20px;
-    font-weight: 200;
     position: absolute;
     background-color: #fff;
     color: hsl(229, 57%, 11%);
