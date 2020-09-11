@@ -13,7 +13,7 @@ body {
 #container {
     width: 100%;
     height: 98vh;
-    background-color: hsl(229, 57%, 11%);
+    background-color: lightgray;
     position: relative;
     display: flex;
     justify-content: center;
@@ -105,6 +105,7 @@ body {
     border-radius: 10px 10px 0 10px;
     padding: 10px;
 }
+
 #usageLeft::before {
     content: "";
     background-color: #fff;
@@ -128,10 +129,17 @@ body {
     background-image: url("images/bg-desktop.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 50vh;
+    width: 80%;
+    height: 30vh;
     position: absolute;
-    top: 50vh;
+    bottom: 200px;
+}
+#mainBackground {
+    position: absolute;
+    width: 80%;
+    height: 50vh;
+    background-color: hsl(229, 57%, 11%);
+    background-position: center;
 }
 
 /* Kaip prideti mobilia versija*/
