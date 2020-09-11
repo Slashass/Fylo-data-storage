@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Fylo data storage</title>
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div id="container">
+      <div id="mainContent">
+        <div id="left" class="content">
+      <div id="logoSection">
+        <img id="logo" src="images/logo.svg" alt="Fylo logo">
+      </div>
+      <div id="actions">
+        <button class="actionButton">
+          <img 
+            src="images/icon-document.svg" 
+            class="actionImage" 
+            alt="Document button"
+            />
+        </button>
+        <button class="actionButton">
+          <img 
+            src="images/icon-folder.svg" 
+            class="actionImage" 
+            alt="Folder button"
+            />
+        </button>
+        <button class="actionButton">
+          <img 
+            src="images/icon-upload.svg" 
+            class="actionImage" 
+            alt="Upload button"
+            />
+        </button>
+      </div>
+        </div>
+        <div id="right" class="content">
+      <p id="usage">
+        You've used <span id="currentUsage">815 GB</span> of your storage
+      </p>
+      <div id="usageBar">
+        <div id="usageFill"></div>
+        <div id="usageBall"></div>
+      </div>
+      <p id="usageMinLimit" class="usageLimit">0 GB</p>
+      <p id="usageMaxLimit" class="usageLimit">1000 GB</p>
+      <p id="usageLeft">185 GB LEFT</p>
+        </div>
+      </div>
+      <div id="background"></div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
