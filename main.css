@@ -140,8 +140,27 @@ body {
     #left{
         text-align: left;
         margin-bottom: 20px;
+        margin-right: 0;
     }
     #right {
         text-align: left;
+    }
+    #usageBar {
+        width: auto;
+    }
+    #usageLeft::before {
+        display: none;
+    }
+    #usageLeft {
+        border-radius: 10px;
+        right: unset;
+        top: unset;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #background {
+        background-image: url("./images/bg-mobile.png");
+        height: 100%;
+        top: 0;
     }
 }
