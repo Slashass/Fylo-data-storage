@@ -27,7 +27,7 @@ body {
     padding: 20px;
     background-color: hsl(228, 56%, 26%);
     vertical-align: bottom;
-
+    -webkit-box-shadow: 0px 5px 30px 0px black;
 }
 #left {
     z-index: 1000;
